@@ -105,3 +105,41 @@ h1 {
 .operations {
     margin-bottom: 10rem;
 }
+
+aside {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.brand {
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+}
+
+/* sostituire div con img */
+.brand div {
+    width: 50%;
+    aspect-ratio: 1;
+    /* DEBUG */
+    background-color: rgb(25, 110, 110);
+}
+
+.designt {
+    background-color: rgb(138, 21, 13);
+    /* DEBUG */
+    width: calc(100% / 3);
+}
+
+.sugar_background {
+    height: 15rem;
+    background-color: cadetblue;
+}
+
+.sugar_background div {
+    height: 100%;
+    align-content: center;
+}
+
+.sugar_background div h2 {
+    width: 50%;
+}
