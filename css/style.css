@@ -18,9 +18,16 @@ img {
     justify-content: space-between;
 }
 
-.hero_container {
+.hero_container, .footer_container {
     width: 70%;
+}
+
+.hero_container {
     margin: 10rem auto;
+}
+
+.footer_container {
+    margin: 4rem auto;
 }
 
 .container {
@@ -108,7 +115,6 @@ h1 {
 
 aside {
     margin-top: 10rem;
-    margin-bottom: 10rem;
 }
 
 .brand {
@@ -133,6 +139,7 @@ aside {
 .sugar_background {
     height: 15rem;
     background-color: cadetblue;
+    margin-bottom: 10rem;
 }
 
 .sugar_background div {
@@ -142,4 +149,26 @@ aside {
 
 .sugar_background div h2 {
     width: 50%;
+}
+
+.faq i {
+    margin-left: 15rem;
+}
+
+hr{
+    border: 1px solid grey;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 10rem;
+}
+
+.footer_card {
+    width: calc(100% / 6);
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
