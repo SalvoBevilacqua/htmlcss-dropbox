@@ -151,8 +151,13 @@ aside {
     width: 50%;
 }
 
+.faq {
+    position: relative;
+}
+
 .faq i {
-    margin-left: 15rem;
+    position: absolute;
+    right: 1rem;
 }
 
 hr{
