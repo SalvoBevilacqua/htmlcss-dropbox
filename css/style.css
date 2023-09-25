@@ -2,12 +2,66 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* DEBUG */
+    border: 1px solid black;
 }
 
 img {
     max-width: 100%;
 }
 
+/* COMMON */
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero_container {
+    width: 70%;
+    margin: 10rem auto;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
+    /* DEBUG */
     background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    width: 100%;
+}
+
+.info {
+    width: 35%;
+    /* DEBUG */
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.image {
+    width: 65%;
+    position: relative;
+    bottom: -30px;
+    /* DEBUG */
+    background-color: chocolate;
 }
