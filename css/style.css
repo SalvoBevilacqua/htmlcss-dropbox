@@ -65,3 +65,43 @@ h1 {
     /* DEBUG */
     background-color: chocolate;
 }
+
+.card {
+    width: 30%;
+    margin-bottom: 1rem;
+    /* DEBUG */
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.team {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.team_title {
+    width: 100%;
+    text-align: center;
+}
+
+.enterprise {
+    width: 65%;
+    /* DEBUG */
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.partner {
+    margin-bottom: 10rem;
+}
+
+.partner div:first-child {
+    width: 60%;
+    /* DEBUG */
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.operations {
+    margin-bottom: 10rem;
+}
