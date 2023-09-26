@@ -235,6 +235,23 @@ main {
     padding: .35rem 1rem; 
 }
 
+.features {
+    margin-top: 3rem;
+}
+
+.features .card {
+    margin-bottom: 2rem;
+}
+
+.features .card > *:not(img) {
+    padding: .7rem 0;
+}
+
+.features .card > img {
+    display: block;
+}
+
+
 .brand {
     width: calc(100% / 3);
     aspect-ratio: 1;
