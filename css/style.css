@@ -192,6 +192,11 @@ main {
     display: block;
     margin-bottom: .5rem;
 }
+
+.plans_section li {
+    margin-bottom: .5rem;
+}
+
 .plans_hr {
     margin: 0 0;
     border: 1px solid grey;
