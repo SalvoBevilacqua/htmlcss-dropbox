@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
     /* DEBUG */
     border: 1px solid black;
 }
@@ -93,6 +94,10 @@ header {
     padding: .35rem 1rem; 
 }
 
+.button:hover {
+    background-color: var(--background_hero);
+}
+
 .hero {
     background-color: var(--background_hero)
 }
@@ -140,6 +145,10 @@ main {
     padding-top: 7rem;
 }
 
+.plans, .team, .partner, .features, .thousand, .sugar_background {
+    margin-bottom: 10rem;
+}
+
 .card {
     width: 30%;
     margin-bottom: 1rem;
@@ -148,10 +157,10 @@ main {
     background-color: blueviolet;
 }
 
-.team {
+/* .team {
     margin-top: 10rem;
     margin-bottom: 10rem;
-}
+} */
 
 .team_title {
     width: 100%;
@@ -182,9 +191,9 @@ main {
 
 
 
-.partner {
+/* .partner {
     margin-bottom: 10rem;
-}
+} */
 
 .partner div:first-child {
     width: 60%;
@@ -193,13 +202,13 @@ main {
     background-color: blueviolet;
 }
 
-.operations {
+/* .features {
     margin-bottom: 10rem;
-}
+} */
 
-aside {
+/* aside {
     margin-top: 10rem;
-}
+} */
 
 .brand {
     width: calc(100% / 3);
@@ -223,7 +232,7 @@ aside {
 .sugar_background {
     height: 15rem;
     background-color: cadetblue;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 
 .sugar_background div {
@@ -273,6 +282,7 @@ footer {
 
 .footer_container > div:last-child {
     color: grey;
+    padding-right: 7rem;
 }
 
 /* RADIO BUTTON */
