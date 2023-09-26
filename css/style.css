@@ -69,7 +69,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    /* align-content: center; */
     padding: 0 1.5rem;
     z-index: 999;
     border-bottom: 1px solid grey;
@@ -83,20 +82,7 @@ header > ul {
 
 a{
     color: inherit;
-    /* line-height: 100%; */
 }
-
-/* .list_left > li {
-    margin-right: 2rem;
-}
-
-.list_right > li {
-    margin-left: 2rem;
-}
-
-.list_right > li:last-child {
-    margin-left: 1rem;
-} */
 
 .button {
     background-color: var(--background_button);
@@ -163,11 +149,6 @@ main {
     background-color: blueviolet;
 }
 
-/* .team {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-} */
-
 .title_card {
     width: 100%;
     text-align: center;
@@ -188,6 +169,10 @@ main {
     color: grey;
 }
 
+.plans_section {
+    width: 100%;
+}
+
 .plans_section > * {
     display: block;
     margin-bottom: .5rem;
@@ -203,13 +188,14 @@ main {
     width: 30%;
 }
 
-.plans_section a {
+.plans_section span > a {
     color: blue;
     text-decoration: underline;
 }
-/* .plans_card {
-    gap: 2rem;
-} */
+
+.plans_section .button {
+    text-align: center;
+}
 
 .enterprise {
     width: 65%;
@@ -225,30 +211,29 @@ main {
     padding-top: 1rem;
 }
 
-/* .team_info a {
-    
-} */
-
-
-
-/* .partner {
-    margin-bottom: 10rem;
-} */
-
-.partner div:first-child {
-    width: 60%;
-    /* DEBUG */
-    height: 400px;
-    background-color: blueviolet;
+.partner {
+    width: 100%;
 }
 
-/* .features {
-    margin-bottom: 10rem;
-} */
+.partner_main {
+    width: 60%;
+    min-height: 150px;
+}
 
-/* aside {
-    margin-top: 10rem;
-} */
+.partner_main img {
+    display: block;
+}
+
+.partner_info {
+    width: 40%;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.button_white {
+    border: 1px solid black;
+    padding: .35rem 1rem; 
+}
 
 .brand {
     width: calc(100% / 3);
@@ -293,7 +278,7 @@ main {
     right: 1rem;
 }
 
-hr{
+hr {
     border: 1px solid grey;
     margin-top: 2rem;
     margin-bottom: 2rem;
