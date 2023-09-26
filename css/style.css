@@ -294,16 +294,16 @@ aside {
     padding: 2rem;
     width: 100%;
     text-align: left;
- }
+}
 
- .designit img {
+.designit img {
     width: 50%;
     /* transform: scale(60%); da problemi perchè mantiene ingombro? */
- }
+}
 
- .designit hr {
+.designit hr {
     width: 30%;
- }
+}
 
 .brand img {
     transform: scale(50%);
@@ -379,6 +379,22 @@ hr {
     display: none;
 }
 
+#angle {
+    display: none;
+}
+
+.faq1:hover > .hide {
+    display: block;
+}
+
+.faq1:hover > .close {
+    display: none;
+}
+
+.faq1:hover > #angle {
+    display: inline-block;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -404,11 +420,6 @@ footer {
     color: grey;
     padding-right: 7rem;
 }
-
-
-
-
-
 
 /* RADIO BUTTON */
 
