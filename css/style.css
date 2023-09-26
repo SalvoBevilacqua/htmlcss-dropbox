@@ -167,11 +167,15 @@ main {
     margin-bottom: 1rem;
 }
 
+/* .plans_section ul {
+    list-style: url(../img/check-solid.svg);
+} */
+
 .plans_section li {
     margin-bottom: .5rem;
 }
 
-.plans_section span {
+.plans_section div span {
     padding-left: .5rem;
 }
 
@@ -435,8 +439,7 @@ footer {
     position: relative;
     padding-left: 35px;
     cursor: pointer;
-    font-size: 1rem;
-  }
+}
   
 .button_container input {
     position: absolute;
