@@ -251,6 +251,19 @@ main {
     display: block;
 }
 
+.thousand h2 {
+    width: 60%;
+    margin-bottom: 5rem;
+}
+
+.thousand a {
+    /* padding: 7rem 0; */
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
 
 .brand {
     width: calc(100% / 3);
@@ -265,15 +278,19 @@ main {
     background-color: rgb(25, 110, 110);
 }
 
-.designt {
+.brand_major {
     background-color: rgb(138, 21, 13);
-    /* DEBUG */
-    width: calc(100% / 3);
 }
 
+
+
+
+
+
 .sugar_background {
+    width: 100%;
     height: 15rem;
-    background-color: cadetblue;
+    background-color: var(--background_hero);
     /* margin-bottom: 10rem; */
 }
 
@@ -326,6 +343,11 @@ footer {
     color: grey;
     padding-right: 7rem;
 }
+
+
+
+
+
 
 /* RADIO BUTTON */
 
