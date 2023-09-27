@@ -130,7 +130,7 @@ main {
 }
 
 .plans, .team, .partner, .features, .thousand, .sugar_background {
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .card {
@@ -317,6 +317,10 @@ margin-bottom: 3rem;
     transform: scale(50%);
     filter: invert(1);
     /* filter: invert(100%) sepia(8%) saturate(7493%) hue-rotate(182deg) brightness(105%) contrast(109%); */
+}
+
+.brand_3 img {
+    transform: scale(75%);
 }
 
 .brand_2 {
