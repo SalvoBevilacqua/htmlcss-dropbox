@@ -169,7 +169,10 @@ main {
 }
 
 .plans_section li {
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
+    display: flex;
+    gap: .5rem;
+    align-items: baseline;
 }
 
 .plans_section div span {
