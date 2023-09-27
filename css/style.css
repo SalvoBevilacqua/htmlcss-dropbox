@@ -83,7 +83,8 @@ a{
 .button {
     background-color: var(--background_button);
     color: white;
-    padding: .35rem 1rem; 
+    padding: .35rem 1rem;
+    display: inline-block;
 }
 
 .button:hover {
@@ -227,6 +228,7 @@ main {
 .button_white {
     border: 1px solid black;
     padding: .35rem 1rem; 
+    display: inline-block;
 }
 
 .features {
@@ -310,7 +312,8 @@ margin-bottom: 3rem;
 
 .brand img {
     transform: scale(50%);
-    filter: invert(100%) sepia(8%) saturate(7493%) hue-rotate(182deg) brightness(105%) contrast(109%);
+    filter: invert(1);
+    /* filter: invert(100%) sepia(8%) saturate(7493%) hue-rotate(182deg) brightness(105%) contrast(109%); */
 }
 
 .brand_2 {
