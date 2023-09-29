@@ -369,14 +369,14 @@ aside {
     border: none;
 }
 
-.faq {
+/* .faq {
     position: relative;
 }
 
 .faq i {
     position: absolute;
     right: 1rem;
-}
+} */
 
 hr {
     border: 1px solid grey;
@@ -385,11 +385,12 @@ hr {
 }
 
 .hide {
+    width: 100%;
     padding: 1rem;
     display: none;
 }
 
-#angle {
+#hide_angle {
     display: none;
 }
 
@@ -401,7 +402,7 @@ hr {
     display: none;
 }
 
-.faq1:hover > #angle {
+.faq1:hover #hide_angle {
     display: inline-block;
 }
 
