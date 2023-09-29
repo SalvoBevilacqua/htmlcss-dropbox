@@ -287,12 +287,6 @@ aside {
     align-items: center;
 }
 
-.brand_1 div {
-    width: calc(100% - 2rem);
-    aspect-ratio: 1;
-    background-color: rgb(162, 211, 155);
-}
-
 .designit {
     padding: 3rem;
     width: 100%;
@@ -301,7 +295,6 @@ aside {
 
 .designit img {
     width: 50%;
-    /* transform: scale(60%); da problemi perchè mantiene ingombro? */
 }
 
 .designit hr {
@@ -310,17 +303,21 @@ aside {
 }
 
 .designit p {
-margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .brand img {
     transform: scale(50%);
     filter: invert(1);
-    /* filter: invert(100%) sepia(8%) saturate(7493%) hue-rotate(182deg) brightness(105%) contrast(109%); */
 }
 
 .brand_3 img {
     transform: scale(75%);
+}
+
+.brand_1 {
+    background-color: rgb(162, 211, 155);
+    border: 1rem solid rgb(209, 233, 205);
 }
 
 .brand_2 {
